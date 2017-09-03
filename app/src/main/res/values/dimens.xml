@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iv_logo_width">116dp</dimen>
+    <dimen name="iv_logo_height">116dp</dimen>
+    <dimen name="iv_logo_margin">84dp</dimen>
+    <dimen name="btn_add_margin">24dp</dimen>
+    <dimen name="btn_add_padding_side">60dp</dimen>
+    <dimen name="btn_add_padding_top_and_bottom">8dp</dimen>
+    <dimen name="btn_add_text_size">28sp</dimen>
+    <dimen name="btn_add_bg_radius_green">4dp</dimen>
+    <dimen name="btn_add_bg_radius_purple">4dp</dimen>
+    <dimen name="add_btn_stroke_width_purple">1dp</dimen>
+    <dimen name="title_margin_vertical">36dp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="title_text_size_dialog_head">28sp</dimen>
+    <dimen name="et_drop_padding">@dimen/_16sdp</dimen>
+    <dimen name="btn_close_dimen">12dp</dimen>
+    <dimen name="row_drops_ll_padding">22dp</dimen>
+    <dimen name="iv_drops_dimen">12dp</dimen>
+    <dimen name="tv_what_side_padding">22dp</dimen>
+    <dimen name="btn_completed_textsize">24sp</dimen>
+    <dimen name="parent_dialog_mark_padding">24dp</dimen>
+    <dimen name="no_item_top_padding">22dp</dimen>
+    <dimen name="no_items_padding_bottom">22dp</dimen>
+    <dimen name="timetext_width">92dp</dimen>
+    <dimen name="text_size_time">24sp</dimen>
+    <dimen name="bpv_space">16dp</dimen>
+    <dimen name="drawable_padding">16dp</dimen>
+    <dimen name="showcase_radius">94dp</dimen>
+    <dimen name="showcase_radius_inner">48dip</dimen>
+    <dimen name="showcase_radius_outer">64dip</dimen>
+    <dimen name="showcase_radius_material">128dip</dimen>
+    <dimen name="custom_showcase_width">600dip</dimen>
+    <dimen name="custom_showcase_height">50dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

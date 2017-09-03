@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rels"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fit4"
+        android:scaleType="fitXY"
+        android:alpha="0.9"
+        />
+
+
+
+    <EditText
+        android:id="@+id/et_uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_logo"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:background="@drawable/bg_et_drop"
+        android:drawableLeft="@drawable/ic_filter_list"
+        android:drawablePadding="@dimen/_16sdp"
+        android:drawableTint="#fff"
+        android:fontFamily="sans-serif-thin"
+        android:freezesText="true"
+        android:hint="Pick a username"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/et_drop_padding"
+        android:textColor="#fff"
+        android:textColorHint="#dedede" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_uname"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/bg_et_drop"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="@dimen/_16sdp"
+        android:drawableTint="#fff"
+        android:fontFamily="sans-serif-thin"
+        android:freezesText="true"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/et_drop_padding"
+        android:textColor="#fff"
+        android:textColorHint="#dedede" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_email"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/bg_et_drop"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="@dimen/_16sdp"
+        android:drawableTint="#fff"
+        android:fontFamily="sans-serif-thin"
+        android:freezesText="true"
+        android:hint="Enter your password"
+
+        android:inputType="textPassword"
+        android:padding="@dimen/et_drop_padding"
+        android:textColor="#fff"
+        android:textColorHint="#dedede"/>
+
+    <Button
+        android:id="@+id/button_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/et_pass"
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/btn_addit"
+        android:elevation="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:padding="16dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+
+
+</RelativeLayout>

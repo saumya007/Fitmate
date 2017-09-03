@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_action_exit"
+        app:showAsAction="always">
+
+    </item>
+<item android:title="@string/add"
+    android:id="@+id/add_menu"
+    android:icon="@drawable/ic_action_add"
+    app:showAsAction="always"
+    >
+</item>
+    <item android:title="Activities"
+        android:id="@+id/none"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_action_list_2"></item>
+    <item android:title="@string/most_time_remaining"
+        android:id="@+id/most_remaining"
+        android:icon="@drawable/ic_timeline"
+        app:showAsAction="withText"
+
+        />
+    <item android:title="@string/least_time_remaining"
+        android:id="@+id/least_remaining"
+        android:icon="@drawable/ic_timelapse"
+        app:showAsAction="withText"
+
+        />
+    <item android:title="@string/completed"
+        app:showAsAction="withText"
+
+        android:id="@+id/completed"
+        android:icon="@drawable/ic_done"/>
+    <item android:title="@string/incomplete"
+        app:showAsAction="withText"
+
+        android:id="@+id/incomplete"
+        android:icon="@drawable/ic_watch_later"/>
+</menu>

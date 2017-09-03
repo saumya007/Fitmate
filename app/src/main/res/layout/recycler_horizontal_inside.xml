@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:id="@+id/recycler_bottom_container"
+    android:paddingLeft="@dimen/_20sdp"
+    android:paddingRight="@dimen/_20sdp">
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="@dimen/_23sdp"
+        android:layout_height="@dimen/_23sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_52sdp"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:background="@null"
+        android:src="@drawable/cancel" />
+<RelativeLayout
+    android:id="@+id/rels"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:clickable="true"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:duplicateParentState="true"
+        android:src="@drawable/watericon" />
+
+    <TextView
+        android:id="@+id/water_name_text"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:duplicateParentState="true"
+        android:fontFamily="@string/sans_serif_thin"
+        android:text="Water"
+        android:textColor="#009688"
+        android:textSize="@dimen/_14sdp" />
+
+    <ImageButton
+        android:id="@+id/btn_add"
+
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_55sdp"
+        android:backgroundTint="#fff"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/add" />
+
+    <TextView
+        android:id="@+id/water_cups_count_text"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:duplicateParentState="true"
+        android:fontFamily="@string/sans_serif_thin"
+        android:text="2 glasses"
+        android:textColor="#009688"
+        android:textSize="@dimen/_14sdp" />
+</RelativeLayout>
+</RelativeLayout>

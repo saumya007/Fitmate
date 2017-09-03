@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saumyamehta.listkeeper2">
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name="com.saumyamehta.listkeeper2.adapters.AppBucketDrops"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.saumyamehta.listkeeper2.MainActivity"
+            >
+
+        </activity>
+
+        <service
+            android:name="com.saumyamehta.listkeeper2.services.NotificationService"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.saumyamehta.listkeeper2.recievers.BootReciever"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.saumyamehta.listkeeper2.Verification">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dialog_Otp"
+            ></activity>
+        <activity android:name=".Dialog_Sms_Verify"/>
+    </application>
+
+</manifest>

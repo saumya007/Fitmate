@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="156dp"
+    android:height="156dp"
+    android:viewportWidth="156"
+    android:viewportHeight="156">
+    <path
+        android:name="quad3"
+        android:strokeColor="#3F51B5"
+        android:strokeWidth="10"
+        android:strokeMiterLimit="10"
+        android:pathData="M135,93c0,26-21,47-47,47" />
+
+    <path
+        android:name="quad4"
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="10"
+        android:strokeMiterLimit="10"
+        android:pathData="M41.1,93c0,26,21,47,47,47" />
+    <path
+        android:name = "quad2"
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="10"
+        android:strokeMiterLimit="10"
+        android:pathData="M41.1,93c0-26,21-47,47-47" />
+    <path
+        android:name="quad1"
+        android:strokeColor="#FF5722"
+        android:strokeWidth="10"
+        android:strokeMiterLimit="10"
+        android:pathData="M135,93c0-26-21-47-47-47" />
+    <!--<path-->
+        <!--android:strokeColor="#3F51B5"-->
+        <!--android:strokeWidth="10"-->
+        <!--android:strokeMiterLimit="10"-->
+        <!--android:pathData="M140,93c0,26-21,47-47,47" />-->
+    <!--<path-->
+        <!--android:strokeColor="#4CAF50"-->
+        <!--android:strokeWidth="10"-->
+        <!--android:strokeMiterLimit="10"-->
+        <!--android:pathData="M36.1,93c0,26,21,47,47,47" />-->
+    <!--<path-->
+        <!--android:strokeColor="#FFEB3B"-->
+        <!--android:strokeWidth="10"-->
+        <!--android:strokeMiterLimit="10"-->
+        <!--android:pathData="M36.1,84c0-26,21-47,47-47" />-->
+    <!--<path-->
+        <!--android:strokeColor="#FF5722"-->
+        <!--android:strokeWidth="10"-->
+        <!--android:strokeMiterLimit="10"-->
+        <!--android:pathData="M140,84c0-26-21-47-47-47" />-->
+
+</vector>

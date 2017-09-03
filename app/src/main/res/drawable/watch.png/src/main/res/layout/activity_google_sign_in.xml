@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:id="@+id/rels"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/iv_logo_width"
+
+            android:layout_height="@dimen/iv_logo_height"
+            android:layout_below="@+id/iv_background"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_logo"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_et_drop"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="16dp"
+            android:fontFamily="sans-serif-thin"
+            android:freezesText="true"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/et_drop_padding" />
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_email"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_et_drop"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="16dp"
+            android:drawableTint="#fff"
+            android:fontFamily="sans-serif-thin"
+            android:freezesText="true"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:padding="@dimen/et_drop_padding" />
+
+        <Button
+            android:id="@+id/button_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_pass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_addit"
+            android:elevation="10dp"
+            android:fontFamily="sans-serif-thin"
+            android:padding="16dp"
+            android:text="Tap to Sign up"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_google"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@string/sans_serif_thin"
+            android:text="Or"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/button_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_or"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_addit"
+            android:drawableLeft="@drawable/ic_action_sms"
+            android:elevation="10dp"
+            android:fontFamily="sans-serif-thin"
+            android:padding="16dp"
+            android:text="Verify with phone"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="300dp"
+            android:indeterminate="false"
+            android:max="10"
+            android:padding="4dip"></ImageView>
+
+        <!--<com.github.ybq.android.spinkit.SpinKitView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/spin_kit"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--style="@style/SpinKitView.Large.ChasingDots"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginLeft="125dp"-->
+        <!--android:layout_below="@+id/iv_logo"-->
+        <!--android:layout_marginTop="70dp"-->
+        <!--app:SpinKit_Color="@android:color/white" />-->
+    </RelativeLayout>
+</ScrollView>

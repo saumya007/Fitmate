@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<ImageButton
+    android:layout_width="@dimen/_35sdp"
+    android:layout_height="@dimen/_35sdp"
+    android:id="@+id/img_selector"
+    android:scaleType="fitXY"
+    android:layout_marginTop="@dimen/_30sdp"
+    android:src="@drawable/ic_directions_run"
+    android:background="@null"
+    android:layout_marginLeft="@dimen/_30sdp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selector_text"
+        android:text="Running"
+        android:backgroundTint="#fff"
+        android:textColor="#fff"
+        android:textSize="@dimen/_17sdp"
+        android:foregroundTint="#fff"
+        android:layout_below="@+id/img_selector"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"/>
+</RelativeLayout>

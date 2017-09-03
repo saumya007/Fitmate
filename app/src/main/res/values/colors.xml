@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#05FFCA</color>
+    <color name="btn_add_selected">#05FFCA</color>
+    <color name="most_used0">#009688</color>
+    <color name="most_used1">#cdcdcd</color>
+    <color name="most_used2">#ff8a65</color>
+    <color name="most_used4">#795548</color>
+    <color name="most_used5">#03A9F4</color>
+    <color name="most_used6">#FFC107</color>
+    <color name="most_used7">#f44336</color>
+    <color name="most_used3">#00bcd4</color>
+    <color name="btn_add_normal">#B691FF</color>
+    <color name="btn_add_text_selected">#241543</color>
+    <color name="bg_drop_row_dark">#BD8E79DD</color>
+    <color name="bg_drop_row_light">#4A8E79BB</color>
+    <color name="bg_dialog">#e30d0028</color>
+    <color name="bg_row_drop_completed">#ED8E79BB</color>
+    <color name="custom_showcase_bg">#b9002153</color>
+    <color name="text_title">#03A9F4</color>
+    <color name="notif">#FFEB3B</color>
+    <color name="black">#000</color>
+</resources>
